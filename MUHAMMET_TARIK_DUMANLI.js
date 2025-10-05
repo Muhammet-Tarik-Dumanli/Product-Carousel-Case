@@ -55,7 +55,7 @@
       console.log("API'den veri çekiliyor...");
       products = await fetchProducts();
     } else {
-      console.log("LocalStorage'dan ürünler yüklendi ✅");
+      console.log("LocalStorage'dan ürünler yüklendi");
     }
     return products;
   }
